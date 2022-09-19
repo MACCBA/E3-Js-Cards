@@ -104,13 +104,19 @@ h1 {
     /* border: 2px solid red; */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .facet_sidebar {
-      display: none;
+      /* display: none; */
     }
     
     body {
-        background-size: cover;
+      /* background: 100%; */
+      /* border: 2px solid red; */
+      height: 800px;
+    }
+
+    h1 {
+        margin-bottom: 5%;
     }
 
     .infoPizza {
@@ -128,4 +134,8 @@ h1 {
         align-items: center;
         position: relative;
         font-size: 20px;
+     }
+
+     .seleccionar-btn {
+        margin-bottom: 30%;
      }
